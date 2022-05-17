@@ -19,8 +19,6 @@ const perPage = 40
 searchForm.addEventListener('submit', onSearchForm)
 loadMoreBtn.addEventListener('click', onLoadMoreBtn)
 
-onScroll()
-onToTopBtn()
 
 function onSearchForm(e) {
   e.preventDefault()
